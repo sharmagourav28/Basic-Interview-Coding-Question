@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+void vowelorconsonent(char c){
+    if(c == 'a'|| c=='e'|| c=='i' || c=='u' || c=='o'){
+        cout<<"Vowel"<<endl;
+    }
+    else{
+        cout<<"Consonent"<<endl;
+    }
+}
+int main(){
+    vowelorconsonent('d');
+    vowelorconsonent('r');
+    vowelorconsonent('o');
+    return 0;
+}
